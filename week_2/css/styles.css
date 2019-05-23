@@ -1,4 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #222;
+	font-family: Gabriola;
+	font-size: 18px;
+	color: #fff;
+
+}
+
 h1 {
-	color: 'sandalwood';
-	font-size: 16px;
+  margin: 25px 100px 50px 100px;
+  font-size: 1.75em;
+  text-align: center;
+  background-color: #444;
+  border-radius: 5px;
+  border: 1px #fff solid;
+}
+
+#p {
+  margin-left: 15px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+div > div > div {
+  background-color: #444;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+div > div > div > p {
+  padding: 15px 10px 0px 10px;
+  text-align: justify;
+  clear: both;
+}
+
+#h_div {
+  border: 1px red solid;
+  margin: 0px 15px 15px 15px;
+}
+
+#c_div {
+  border: 1px blue solid;
+  margin: 0px 15px 15px 15px;
+}
+
+#j_div {
+  border: 1px orange solid;
+  margin: 0px 15px 15px 15px;
+}
+
+#h {
+  height: 50px;
+  font-size: 1.25em;
+  background-color: red;
+  float: right;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px #fff solid;
+}
+
+#c {
+  height: 50px;
+  font-size: 1.25em;
+  background-color: blue;
+  float: right;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px #fff solid;
+}
+
+#j {
+  height: 50px;
+  font-size: 1.25em;
+  background-color: orange;
+  float: right;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px #fff solid;
 }
