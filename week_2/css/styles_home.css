@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #222;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 18px;
+	color: #fff;
+
+}
+
+h1 {
+  margin: 25px 100px 50px 100px;
+  font-size: 1.75em;
+  text-align: center;
+  background-color: #444;
+  border-radius: 5px;
+  border: 1px #fff solid;
+  height: 50px;
+}
+
+p {
+  margin-left: 15px;
+}
+
+.week {
+  height: 40px;
+  font-size: 1.25em;
+  background-color: #444;
+  width: 20%;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px #fff solid;
+  float: left;
+  margin: 50px 0px 0px 50px;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff; 
+  text-decoration: none;
+}
+
+a:active {
+  color: #fff;
+  text-decoration: none;
+}

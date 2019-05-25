@@ -4,7 +4,7 @@
 
 body {
 	background-color: #222;
-	font-family: Gabriola;
+	font-family: 'Kaushan Script', cursive;
 	font-size: 18px;
 	color: #fff;
 
@@ -17,6 +17,7 @@ h1 {
   background-color: #444;
   border-radius: 5px;
   border: 1px #fff solid;
+  height: 50px;
 }
 
 #p {
@@ -98,7 +99,7 @@ div > div > div > p {
   font-size: 1.25em;
   background-color: orange;
   float: right;
-  width: 100px;
+  width: 130px;
   text-align: center;
   border-radius: 5px;
   border: 1px #fff solid;
