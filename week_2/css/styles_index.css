@@ -17,7 +17,7 @@ h1 {
   background-color: #444;
   border-radius: 5px;
   border: 1px #fff solid;
-  height: 50px;
+  padding-bottom: 8px;
 }
 
 #p {
@@ -73,7 +73,6 @@ div > div > div > p {
 }
 
 #h {
-  height: 50px;
   font-size: 1.25em;
   background-color: red;
   float: right;
@@ -81,10 +80,10 @@ div > div > div > p {
   text-align: center;
   border-radius: 5px;
   border: 1px #fff solid;
+  padding-bottom: 10px;
 }
 
 #c {
-  height: 50px;
   font-size: 1.25em;
   background-color: blue;
   float: right;
@@ -92,10 +91,10 @@ div > div > div > p {
   text-align: center;
   border-radius: 5px;
   border: 1px #fff solid;
+  padding-bottom: 10px;
 }
 
 #j {
-  height: 50px;
   font-size: 1.25em;
   background-color: orange;
   float: right;
@@ -103,4 +102,5 @@ div > div > div > p {
   text-align: center;
   border-radius: 5px;
   border: 1px #fff solid;
+  padding-bottom: 10px;
 }
